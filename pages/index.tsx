@@ -3,7 +3,10 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
   return (
     <>
-      <h1 className=' bg-andre text-lg hover:bg-sky-400 duration-1000 hover:text-2xl xl:w-10 sm:w-9'>aa</h1>
+      <div className='flex  items-center justify-center bg-gray-light text-center h-80'>
+        <button className='w-36 bg-orange text-gray-light rounded-lg'>Entrar</button>
+        <button className='w-36 bg-orange text-gray-light ml-5 rounded-lg'>Sair</button>
+      </div>
     </>
   )
 }
